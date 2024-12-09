@@ -72,5 +72,10 @@ namespace BTTuan03
                 lstBandau.Items.RemoveAt(lstBandau.SelectedIndices[i]);
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thong bao", "Thong bao", MessageBoxButtons.OKCancel);
+        }
     }
 }
